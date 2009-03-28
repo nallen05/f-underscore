@@ -12,6 +12,6 @@ to syntax [like arc's square bracket unary function syntax]
 
     (f_n ..)   -> (lambda (&rest _) ..)
 
-    (f_% ..)   ~= (lambda (&rest #:%) (declare (ignore #:%)) ..)
+    (f_% ..)   ~ (lambda (&rest #:%) (declare (ignore #:%)) ..)
 
-    (setf (macro-function 'foo) (m args ..)) ~= (defmacro foo args ..)
+    (setf (macro-function 'foo) (m args ..)) ~ (defmacro foo args ..)
